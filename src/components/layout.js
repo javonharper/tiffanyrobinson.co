@@ -25,6 +25,7 @@ const Layout = ({ children }) => (
     render={data => (
       <>
         <div
+          className="fade-in"
           style={{
             margin: `0 auto`,
             maxWidth: 960,
@@ -33,7 +34,14 @@ const Layout = ({ children }) => (
           }}
         >
           <main>{children}</main>
-          <footer>© {new Date().getFullYear()}, for the ❤️ Philly </footer>
+          <footer>
+            <div className="contact">Get in touch or say hello</div>
+            <a className="email" href="mailto:trobinson89@gmail.com">
+              trobinson89@gmail.com
+            </a>
+
+            {/* © {new Date().getFullYear()}, for the ❤️ Philly */}
+          </footer>
         </div>
       </>
     )}

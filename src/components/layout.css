@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Work+Sans:300,400,600,700");
+
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -200,7 +202,7 @@ html {
 }
 body {
   color: hsla(0, 0%, 0%, 0.8);
-  font-family: georgia, serif;
+  font-family: "Work Sans", sans-serif;
   font-weight: normal;
   word-wrap: break-word;
   font-kerning: normal;
@@ -618,5 +620,31 @@ pre tt:after {
 @media only screen and (max-width: 480px) {
   html {
     font-size: 100%;
+  }
+}
+
+footer {
+  padding-top: 1rem;
+  text-align: center;
+}
+
+.fade-in {
+  margin-top: 25px;
+  font-size: 21px;
+  text-align: center;
+
+  -webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 1s; /* Firefox < 16 */
+  -ms-animation: fadein 1s; /* Internet Explorer */
+  -o-animation: fadein 1s; /* Opera < 12.1 */
+  animation: fadein 1s;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
   }
 }

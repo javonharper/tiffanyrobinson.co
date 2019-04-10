@@ -1,0 +1,17 @@
+.hero {
+  text-align: center;
+}
+
+.hero-image {
+  max-width: 11rem;
+  border-radius: 50%;
+}
+
+.hero-heading {
+  padding-bottom: 1rem;
+}
+
+.hero-subheading {
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #ccc;
+}
