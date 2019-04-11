@@ -19,8 +19,8 @@ const IndexPage = () => (
         </div>
         <div className="hero-subheading">
           Currently, I work as a paralegal. I am seeking to leverage my
-          experience with my passion for technology. Below are side projects I
-          have contributed to along with my blog that details my experience.
+          experience with my passion for technology.
+          {/* Below are side projects I have contributed to along with my blog that details my experience. */}
         </div>
       </div>
     </div>
